@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #A49137;
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url(./zelda\ wallpaper\ 37.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin: 5px;
+    padding: 10px;
+    background-color: #03C0D5;
+    font-weight: 700;
+}
+
+.container {
+    text-align: center;
+}
+.container .name h1 {
+    font-size: 60px;
+}
+
+.container .name h5 {
+    font-size: 20px;
+}
+
+#about p {
+    font-style: italic;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form input {
+    width: 50%;
+}
+
+.form button {
+    width: 15%;
+}
